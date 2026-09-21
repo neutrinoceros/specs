@@ -23,6 +23,11 @@ shortcutDepth: 3
 This SPEC recommends a lazy loading mechanism—targeted at libraries—that avoids import slowdowns
 and provides explicit submodule exports.
 
+> Note
+> This SPEC is rendered obsolete in Python 3.15 and newer.
+> See [PEP 810, Explicit Lazy Imports](https://peps.python.org/pep-0810/)
+> The SPEC will be sunsetted when Python 3.14 is EOL.
+
 For example, it allows the following behavior:
 
 ```python
